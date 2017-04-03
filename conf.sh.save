@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "os version,kernel version,released no"
+let s=lsb_release -a 
+echo $s

@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ $# -ne 2 ]
+then
+	echo "no.of arguments incorrect"
+
+fi
+l=ulist
+if [ -f $l ]
+then
+	echo "exist"
+else
+	echo "not exist"
+fi
